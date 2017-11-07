@@ -4,10 +4,12 @@ const menu = `
       <a href="#" class="brand-logo right"></a>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
         <li><a href="/">Inicio</a></li>
+        <li><a href="/Login">Sesion</a></li>
         <li><a href="/acercade">Acerca de</a></li>
         <li><a href="/contacto">Contacto</a></li>
         <li><a href="/Productos">Productos</a></li>
         <li><a href="/listaP">lista Producto</a></li>
+        <li><a href="/Guardar">Guardar Datos</a></li>
       </ul>
     </div>
   </nav>
