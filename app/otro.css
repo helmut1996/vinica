@@ -1,12 +1,20 @@
 body {
 	background-color: #FAEBD7;
 }
-
+/*
 .nav-wrapper{
 	background-color: black;
-}
+}*/
 
 .page-footer{
 	background-color: black;
 }
+
+.titulos{
+font-family: cursive;
+font-size: 20px;
+
+}
+
+
 

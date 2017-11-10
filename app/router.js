@@ -5,6 +5,7 @@ import contacto from './contacto'
 import acercade from './acercade'
 import Productos from './Productos'
 import Login from './Login/login'
+import Guardar from './Guardar'
 require('./listaP')
 
 
@@ -28,4 +29,9 @@ page('/Productos', () => {
 
 page('/Login', () => {
 	main.innerHTML = layout(Login)
+})
+
+
+page('/Guardar', () => {
+	main.innerHTML = layout(Guardar)
 })
