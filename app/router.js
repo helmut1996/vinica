@@ -6,6 +6,10 @@ import acercade from './acercade'
 import Productos from './Productos'
 import Login from './Login/login'
 import Guardar from './Guardar'
+import Detalle from './Detalle/modificar'
+
+
+var firebase = require('firebase')
 require('./listaP')
 
 
@@ -35,3 +39,5 @@ page('/Login', () => {
 page('/Guardar', () => {
 	main.innerHTML = layout(Guardar)
 })
+
+

@@ -8,7 +8,7 @@ if (!firebase.apps.length) {
 
 // template
 var loginTemplate = `
-<h4 class="card-title center">Sing in / Sing up</h4>
+<h4 class="card-title center">Inicio de Sesion</h4>
          	<div class="row">
 	         	<div class="row center">
 	         		<a id="googleLogin" class="waves-effect waves-light btn red darken-1">Login con Google</a>

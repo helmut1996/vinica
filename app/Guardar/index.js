@@ -21,13 +21,16 @@ page('/Guardar', () => {
 })
 
 var formTemplate = `  
+<div>
+</div>
 
-<h1 id="formulario">Nuevos Productos</h1>
-
-<div class="row">
+<div class=" center-align row">
     <form class="col s12">
       <div class="row">
+              <h4 class="center-align">Almacenar nuevo Producto</h4>
+
         <div class="input-field col s8">
+
           <input placeholder="Nombre vino" id="nombre" type="text" class="validate">
           <label for="nombre">Nombre</label>
         </div>
@@ -44,7 +47,7 @@ var formTemplate = `
         <div class="col s8">
           <div class="file-field input-field">
             <div class="btn">
-                <span>File</span>
+                <span>Imagen</span>
                 <input type="file" id="file">
             </div>
              <div class="file-path-wrapper">
@@ -58,7 +61,8 @@ var formTemplate = `
     </div>
       </form>
   </div>
-  </div>`
+  </div>
+`
 
 var fileSelected = null
 

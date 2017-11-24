@@ -6,7 +6,7 @@ const templatelistaP = datos => {
   keys.map(key => {
     let item = datos[key];
     rows += `
-     <tr>
+     <tr id="columna">
       <td>${countRow++}</td>
       <td><a href="/detalle/${key}">${item.sabor} </a></td>
       <td>${item.cantidad}</td>
@@ -35,14 +35,18 @@ const templatelistaP = datos => {
     <div class="col s12">
       <div class="card">
         <div class="card-content">
-          <span class="card-title">Lista de datos</span>
+          <span class="card-title center-align">Inventario de Producos 
+          </span>
           ${table}
         </div>
       </div>
     </div>
-  </div>`;
+  </div>
 
-  return card;
+  `;
+
+  return card; 
+
 };
 
 module.exports =  templatelistaP;

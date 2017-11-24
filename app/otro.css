@@ -1,5 +1,6 @@
 body {
-	background-color: #FAEBD7;
+	background: url(https://firebasestorage.googleapis.com/v0/b/vinica-1ebf7.appspot.com/o/web.jpg?alt=media&token=2434cb98-fc2a-49f6-ae8d-332079c1a1f2);
+	color: 	#FFFFE0;
 }
 /*
 .nav-wrapper{
@@ -16,5 +17,46 @@ font-size: 20px;
 
 }
 
+#cuadro{
+	
+	margin: 9px;
+}
 
+.card{
+	background-color: #708090;
+}
+
+#columna{
+	background-color: #708090;
+}
+
+.card-reveal{
+	color: black;
+}
+
+form{
+	background-color: #708090;
+margin: 15px;
+
+}
+
+#cuadro1{
+	
+	margin: 9px;
+
+}
+
+header{
+	margin: 9px;
+	text-align: center;
+}
+
+#img{
+	width: 250px;
+	height: 250px;
+}
+
+.card-title{
+	color: black;
+}
 

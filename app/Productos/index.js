@@ -1,4 +1,7 @@
-const Productos = `<h1>Productos Vinica</h1>
+const Productos = `
+<div id="cuadro1">
+<h2 class="center-align">Productos</h2>
+</div>
 
 
 <div class="row">

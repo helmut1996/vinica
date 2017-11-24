@@ -1,7 +1,7 @@
 const homepage = `
-<div class="container">
-<center><h1>Bienvenidos a Vinica </h1></center>
-</div>
+<div id="cuadro">
+<h2 class="center-align">Bienvenido </h2>
+</div><br><br>
 
 <div class="slider">
 <ul class="slides">
@@ -34,14 +34,14 @@ const homepage = `
 </ul>
 </div>
   
-<p><strong class="titulos">VINICA:</strong> ofrece vinos a base de Frutas Tropicales.</p><br><br>
+<p class="center-align"><strong class="titulos">VINICA:</strong> ofrece vinos a base de Frutas Tropicales.</p><br><br>
 
 
-<strong class="titulos">Descripción de la empresa<br></strong>
-<p>Vinica fue fundada en el año 2007 como consecuencia de un proyecto de curso universitario realizado por dos emprendedoras de la carrera de Ingeniería industrial de la Universidad Nacional de Ingeniería (UNI) e iniciaron operaciones gracias a la aprobación de un financiamiento otorgado a través del Programa de Atención Empresarial (PAE) de la misma universidad.</p><br>
+<strong class="titulos ">Descripción de la empresa<br></strong>
+<p class="center-align">Vinica fue fundada en el año 2007 como consecuencia de un proyecto de curso universitario realizado por dos emprendedoras de la carrera de Ingeniería industrial de la Universidad Nacional de Ingeniería (UNI) e iniciaron operaciones gracias a la aprobación de un financiamiento otorgado a través del Programa de Atención Empresarial (PAE) de la misma universidad.</p><br>
 
 <strong class="titulos">Premios</strong>
-<p>Premio a la excelencia como mejor empresa agroindustrial urbana de Managua en 2012, otorgado por el instituto de apoyo a la pequeña y mediana empresa INPYME.
+<p class="center-align">Premio a la excelencia como mejor empresa agroindustrial urbana de Managua en 2012, otorgado por el instituto de apoyo a la pequeña y mediana empresa INPYME.
 Empresaria joven del año 2013, reconocimiento otorgado por Cosep.<br><br>
 Vinos a base de flor de jamaica, coyolito, piña, melocoton, marañon y nancite.</p><br><br>
 

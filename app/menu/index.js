@@ -9,7 +9,7 @@ const menu = `
         <li><a href="/contacto">Contacto</a></li>
         <li><a href="/Productos">Productos</a></li>
         <li><a href="/listaP">lista Producto</a></li>
-        <li><a href="/Guardar">Guardar Datos</a></li>
+        <li><a href="/Guardar">Guardar Productos</a></li>
       </ul>
     </div>
   </nav>
